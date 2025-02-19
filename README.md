@@ -180,8 +180,8 @@ npm run dev
 
 ```bash
 src/
-├── app.ts              # Application entry point
-├── config/            # Configuration files
+├── app.ts            # Application entry point
+├── config/           # Configuration files
 ├── data/             # Database models and connection
 ├── domain/           # Business logic and DTOs
 ├── middlewares/      # Express middlewares

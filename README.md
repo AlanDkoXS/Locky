@@ -16,10 +16,9 @@
 
 A secure password management system built with Node.js, Express, and TypeScript, featuring encrypted credential storage and multi-layer security.
 
-🇲🇽 Puedes ver el archivo en español haciendo click <!-- <a href="https://github.com/AlanDkoXS/Locky/blob/main/LEEME.md">aquí</a> -->
+🇲🇽 Puedes ver el archivo en español haciendo click <a href="https://github.com/AlanDkoXS/Locky/blob/main/LEEME.md">aquí</a>
 
-You can see de Postman Documentation <!-- <a href="https://documenter.getpostman.com/view/39046613/2sAYdZtDHp">here</a> -->
-
+You can see de Postman Documentation <a href="https://documenter.getpostman.com/view/39046613/2sAYdZtDHp">here</a>
 ## Features
 
 - 🔐 Secure user authentication with JWT
@@ -49,21 +48,18 @@ You can see de Postman Documentation <!-- <a href="https://documenter.getpostman
 
 ## Installation
 
-  - Clone the repository:
-
+1. Clone the repository:
 ```bash
 git clone https://github.com/AlanDkoXS/Locky.git
 cd Locky
 ```
 
-  - Install dependencies:
-
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-1. Create a `.env` file in the root directory with the following variables:
-
+3. Create a `.env` file in the root directory with the following variables:
 ```env
 PORT=3251
 USERNAME_DATABASE=your_username
@@ -82,19 +78,16 @@ MAILER_SECRET_KEY=your_mailer_key
 ```
 
 4. Build the project:
-
 ```bash
 npm run build
 ```
 
 5. Start the server:
-
 ```bash
 npm start
 ```
 
 For development:
-
 ```bash
 npm run dev
 ```
@@ -198,7 +191,6 @@ src/
 ## Error Handling
 
 The application implements a custom error handling system with specific error types:
-
 - BadRequest (400)
 - Unauthorized (401)
 - Forbidden (403)
@@ -221,4 +213,4 @@ This project is licensed under the MIT License.
 
 [Alan Quintana](https://alanquintana.pro/)
 
-Special thanks to <!-- <a href="https://github.com/luismiguelavlo">Luis Miguel Avendaño Lozano</a>, for all the knowledge and help in this project 🧑🏻‍💻 -->
+Special thanks to <a href="https://github.com/luismiguelavlo">Luis Miguel Avendaño Lozano</a>, for all the knowledge and help in this project 🧑🏻‍💻
